@@ -31,7 +31,7 @@ class AuthService {
 
     //  retrieve token from localStorage
     getToken() {
-        return localStorage.getItem('id_token', idToken);
+        return localStorage.getItem('id_token');
     }
 
     // set token to loacalStroeaf and reload page to homepage
